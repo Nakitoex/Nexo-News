@@ -78,10 +78,6 @@ A proposta visual prioriza legibilidade, organização das informações e valor
 - Node.js
 - Express
 - TypeScript
-- Prisma ORM
-
-### Banco de dados
-- PostgreSQL
 
 ### Infraestrutura e ferramentas
 - Docker e Docker Compose
@@ -218,12 +214,6 @@ cp .env.example .env
 Configure as credenciais locais do banco de dados e demais variáveis exigidas pelo projeto.
 
 **Importante:** nunca compartilhe arquivos `.env` com credenciais reais.
-
-### 4. Iniciar o PostgreSQL
-
-```bash
-docker compose up -d
-```
 
 ### 5. Instalar as dependências
 
