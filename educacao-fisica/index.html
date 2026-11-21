@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Educação Física | NEXUS NEWS</title>
+  <meta name="description" content="Movimento, esporte e ciência do exercício.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="NEXUS NEWS">
+  <meta property="og:title" content="Educação Física | NEXUS NEWS">
+  <meta property="og:description" content="Movimento, esporte e ciência do exercício.">
+  <link rel="icon" href="../assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../css/style.css">
+  <script type="module" src="../js/main.js"></script>
+</head>
+<body data-category="educacao-fisica">
+  <a class="skip-link" href="#main">Ir para o conteúdo</a>
+  <header class="site-header">
+    <div class="header-inner wrap">
+      <a class="brand" href="../" aria-label="NEXUS NEWS, início">
+        <img src="../assets/icon.svg" width="42" height="42" alt="">
+        <span class="wordmark">NEXUS <span>NEWS</span></span>
+      </a>
+      <nav id="primary-navigation" class="primary-nav" aria-label="Navegação principal">
+        <ul>
+          <li><a href="../">Início</a></li>
+          <li><a href="../medicina/">Medicina</a></li>
+          <li><a href="../direito/">Direito</a></li>
+          <li><a href="../ads/">ADS</a></li>
+          <li><a href="../engenharia-civil/">Engenharia Civil</a></li>
+          <li><a href="../cinema/">Cinema</a></li>
+          <li><a href="../educacao-fisica/" aria-current="page">Educação Física</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button type="button" class="icon-button" id="search-toggle" aria-label="Buscar notícias"
+                aria-controls="search-panel" aria-expanded="false">
+          <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <circle cx="10.8" cy="10.8" r="6.2"/><path d="m15.6 15.6 4 4"/>
+          </svg>
+          <span class="search-button-label">Buscar</span>
+        </button>
+        <button type="button" class="icon-button" id="menu-toggle" aria-label="Menu"
+                aria-controls="primary-navigation" aria-expanded="false">
+          <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <path d="M4 6h16M4 12h16M4 18h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <form id="search-panel" class="search-panel wrap" role="search" hidden>
+      <label for="search-input">Buscar notícias</label>
+      <input id="search-input" type="search" placeholder="Título, assunto ou categoria" autocomplete="off">
+      <button type="button" class="search-close">Fechar</button>
+    </form>
+  </header>
+  <main id="main" class="site-main wrap" tabindex="-1">
+    <div class="edition-bar">
+      <p class="edition-identity">Zine universitário</p>
+      <div class="edition-details">
+        <span id="edition-date"></span>
+        <span id="edition-kind" class="edition-kind" hidden>Edição demonstrativa</span>
+      </div>
+    </div>
+    <div id="content">
+      <div id="data-status" class="data-status" role="status">Carregando a edição…</div>
+      <noscript><p class="stage-message">Ative o JavaScript para ver as notícias.</p></noscript>
+      <div data-edition-content>
+      <div class="category-banner">
+        <a href="../">← Início</a>
+        <h1>Educação Física</h1>
+        <p>Movimento, esporte e ciência do exercício.</p>
+      </div>
+      <section class="news-section" aria-labelledby="category-title">
+        <div class="section-head">
+          <h2 id="category-title" class="section-title"><span>Notícias</span></h2>
+        </div>
+        <div id="category-grid" class="news-grid"></div>
+      </section>
+      </div>
+    </div>
+    <section id="search-results" class="news-section" aria-labelledby="search-results-title" hidden>
+      <div class="section-head">
+        <h1 id="search-results-title" class="section-title">Resultados da busca</h1>
+      </div>
+      <p id="search-status" role="status"></p>
+      <div class="news-grid"></div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-inner wrap">
+      <a class="brand" href="../" aria-label="NEXUS NEWS, início">
+        <img src="../assets/icon.svg" width="42" height="42" alt="">
+        <span class="wordmark">NEXUS <span>NEWS</span></span>
+      </a>
+      <p>Portal de notícias universitárias</p>
+    </div>
+  </footer>
+</body>
+</html>

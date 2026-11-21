@@ -1,0 +1,237 @@
+{
+  "updatedAt": "2026-11-20T16:00:00Z",
+  "demo": true,
+  "hotNews": {
+    "id": "ia-e-autoria",
+    "category": "ads",
+    "title": "Quem cria quando a IA cria?",
+    "summary": "Ferramentas generativas já fazem parte da rotina criativa. O que elas mudam para quem está aprendendo a escrever, desenhar e programar?",
+    "source": "UNESCO",
+    "sourceUrl": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
+    "publishedAt": "2026-11-20T16:00:00Z",
+    "image": "assets/images/ia-e-criatividade.webp",
+    "imageAlt": "Colagem ilustrativa de uma estudante com fones de ouvido.",
+    "tags": [
+      "inteligência artificial",
+      "autoria",
+      "criatividade",
+      "educação"
+    ]
+  },
+  "weeklyCuriosity": {
+    "title": "Como o vinil guarda som?",
+    "content": "A agulha acompanha as ondulações do sulco. O movimento vira um sinal elétrico que pode ser amplificado e voltar a ser som.",
+    "category": "cinema",
+    "source": "Britannica",
+    "sourceUrl": "https://www.britannica.com/technology/phonograph",
+    "image": "assets/images/vinil.webp",
+    "imageAlt": "Colagem ilustrativa de um disco de vinil e recortes roxos e verdes."
+  },
+  "categories": {
+    "medicina": [
+      {
+        "id": "imagens-do-cerebro",
+        "category": "medicina",
+        "title": "Como a ressonância revela o cérebro",
+        "summary": "Um guia para entender como as imagens são produzidas e por que a técnica importa na prática clínica.",
+        "source": "NIBIB",
+        "sourceUrl": "https://www.nibib.nih.gov/science-education/science-topics/magnetic-resonance-imaging-mri",
+        "publishedAt": "2026-11-20T15:00:00Z",
+        "image": "assets/images/medicina.webp",
+        "imageAlt": "Ilustração de uma pesquisadora observando uma imagem de ressonância.",
+        "tags": [
+          "ressonância",
+          "neurociência",
+          "diagnóstico"
+        ]
+      },
+      {
+        "id": "saude-publica",
+        "category": "medicina",
+        "title": "Da prevenção à vigilância em saúde",
+        "summary": "O que a epidemiologia estuda e como seus métodos ajudam a entender a distribuição das doenças.",
+        "source": "CDC",
+        "sourceUrl": "https://www.cdc.gov/field-epi-manual/",
+        "publishedAt": "2026-11-19T18:00:00Z",
+        "image": "assets/images/medicina.webp",
+        "imageAlt": "Ilustração de uma pesquisadora observando uma imagem de ressonância.",
+        "tags": [
+          "epidemiologia",
+          "prevenção",
+          "saúde pública"
+        ]
+      }
+    ],
+    "direito": [
+      {
+        "id": "direitos-na-rede",
+        "category": "direito",
+        "title": "Direitos na internet, do papel à prática",
+        "summary": "O que o Marco Civil estabelece sobre privacidade, liberdade de expressão e o uso da internet no Brasil.",
+        "source": "LexML Brasil",
+        "sourceUrl": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2014-04-23;12965",
+        "publishedAt": "2026-11-20T14:00:00Z",
+        "image": "assets/images/direito.webp",
+        "imageAlt": "Ilustração de um martelo de juiz sobre documentos.",
+        "tags": [
+          "legislação",
+          "internet",
+          "privacidade"
+        ]
+      },
+      {
+        "id": "dados-pessoais",
+        "category": "direito",
+        "title": "O que a LGPD chama de dado pessoal?",
+        "summary": "Entenda a diferença entre dado pessoal e dado sensível e encontre o texto completo da lei.",
+        "source": "LexML Brasil",
+        "sourceUrl": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2018-08-14;13709",
+        "publishedAt": "2026-11-19T17:00:00Z",
+        "image": "assets/images/direito.webp",
+        "imageAlt": "Ilustração de um martelo de juiz sobre documentos.",
+        "tags": [
+          "direito digital",
+          "dados",
+          "LGPD"
+        ]
+      }
+    ],
+    "ads": [
+      {
+        "id": "ia-e-autoria",
+        "category": "ads",
+        "title": "Quem cria quando a IA cria?",
+        "summary": "Ferramentas generativas já fazem parte da rotina criativa. O que elas mudam para quem está aprendendo a escrever, desenhar e programar?",
+        "source": "UNESCO",
+        "sourceUrl": "https://unesdoc.unesco.org/ark:/48223/pf0000386693",
+        "publishedAt": "2026-11-20T16:00:00Z",
+        "image": "assets/images/ia-e-criatividade.webp",
+        "imageAlt": "Colagem ilustrativa de uma estudante com fones de ouvido.",
+        "tags": [
+          "inteligência artificial",
+          "autoria",
+          "criatividade",
+          "educação"
+        ]
+      },
+      {
+        "id": "acessibilidade-web",
+        "category": "ads",
+        "title": "Como construir uma web mais acessível",
+        "summary": "Navegação por teclado, contraste e texto alternativo são pontos de partida para qualquer projeto web.",
+        "source": "W3C",
+        "sourceUrl": "https://www.w3.org/WAI/fundamentals/accessibility-intro/",
+        "publishedAt": "2026-11-20T10:00:00Z",
+        "image": "assets/images/ia-e-criatividade.webp",
+        "imageAlt": "Colagem ilustrativa de uma estudante com fones de ouvido.",
+        "tags": [
+          "programação",
+          "acessibilidade",
+          "tecnologia"
+        ]
+      }
+    ],
+    "engenharia-civil": [
+      {
+        "id": "cidades-que-esfriam",
+        "category": "engenharia-civil",
+        "title": "O que faz uma cidade esquentar?",
+        "summary": "Materiais, sombra e vegetação ajudam a explicar por que bairros da mesma cidade registram temperaturas diferentes.",
+        "source": "EPA",
+        "sourceUrl": "https://www.epa.gov/heatislands",
+        "publishedAt": "2026-11-20T12:00:00Z",
+        "image": "assets/images/engenharia-civil.webp",
+        "imageAlt": "Ilustração de formas de concreto em perspectiva.",
+        "tags": [
+          "infraestrutura",
+          "cidades",
+          "clima"
+        ]
+      },
+      {
+        "id": "concreto",
+        "category": "engenharia-civil",
+        "title": "O concreto também entra na conversa sobre carbono",
+        "summary": "A produção de cimento está no centro de pesquisas sobre materiais e processos com menos emissões.",
+        "source": "IEA",
+        "sourceUrl": "https://www.iea.org/energy-system/industry/cement",
+        "publishedAt": "2026-11-19T16:00:00Z",
+        "image": "assets/images/engenharia-civil.webp",
+        "imageAlt": "Ilustração de formas de concreto em perspectiva.",
+        "tags": [
+          "construção",
+          "concreto",
+          "sustentabilidade"
+        ]
+      }
+    ],
+    "cinema": [
+      {
+        "id": "cinema-e-memoria",
+        "category": "cinema",
+        "title": "O que se perde quando um filme desaparece?",
+        "summary": "Preservar um filme também significa preservar o jeito como uma época registrou sua própria história.",
+        "source": "Cinemateca Brasileira",
+        "sourceUrl": "https://cinemateca.org.br/",
+        "publishedAt": "2026-11-20T13:00:00Z",
+        "image": "assets/images/cinema.webp",
+        "imageAlt": "Ilustração de uma câmera analógica e um rolo de filme.",
+        "tags": [
+          "audiovisual",
+          "preservação",
+          "acervo"
+        ]
+      },
+      {
+        "id": "patrimonio-audiovisual",
+        "category": "cinema",
+        "title": "Por que o patrimônio audiovisual precisa de cuidado?",
+        "summary": "Cinema, rádio e televisão guardam registros que dependem de acervos, equipamentos e técnicas de preservação.",
+        "source": "FIAF",
+        "sourceUrl": "https://www.fiafnet.org/",
+        "publishedAt": "2026-11-19T15:00:00Z",
+        "image": "assets/images/cinema.webp",
+        "imageAlt": "Ilustração de uma câmera analógica e um rolo de filme.",
+        "tags": [
+          "cinema",
+          "memória",
+          "audiovisual"
+        ]
+      }
+    ],
+    "educacao-fisica": [
+      {
+        "id": "movimento-conta",
+        "category": "educacao-fisica",
+        "title": "Todo movimento conta",
+        "summary": "Caminhar, pedalar e praticar esportes são formas de atividade física. Veja o que as diretrizes dizem sobre frequência e intensidade.",
+        "source": "OMS",
+        "sourceUrl": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+        "publishedAt": "2026-11-20T11:00:00Z",
+        "image": "assets/images/educacao-fisica.webp",
+        "imageAlt": "Ilustração de uma atleta em uma pista de corrida.",
+        "tags": [
+          "exercício",
+          "esporte",
+          "saúde"
+        ]
+      },
+      {
+        "id": "atividade-e-sedentarismo",
+        "category": "educacao-fisica",
+        "title": "Exercício e tempo sentado na mesma rotina",
+        "summary": "As recomendações internacionais tratam tanto da prática de atividade física quanto do comportamento sedentário.",
+        "source": "OMS",
+        "sourceUrl": "https://www.who.int/publications/i/item/9789240015128",
+        "publishedAt": "2026-11-19T14:00:00Z",
+        "image": "assets/images/educacao-fisica.webp",
+        "imageAlt": "Ilustração de uma atleta em uma pista de corrida.",
+        "tags": [
+          "atividade física",
+          "sedentarismo",
+          "treinamento"
+        ]
+      }
+    ]
+  }
+}
