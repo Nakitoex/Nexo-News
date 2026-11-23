@@ -3,7 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="light">
+<meta name="color-scheme" content="light dark">
+<script>
+  (function(){try{var t=localStorage.getItem('nexus-theme');
+  if(t!=='dark'&&t!=='light')t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';
+  document.documentElement.setAttribute('data-theme',t);}catch(e){}})();
+</script>
+<link rel="icon" href="./assets/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="./css/style.css">
+<script src="./js/theme.js" defer></script>
+<script type="module" src="./js/main.js"></script>
   <title>NEXUS NEWS | Zine Universitário</title>
   <meta name="description" content="NEXUS NEWS reúne notícias, curiosidades e referências para estudantes universitários.">
   <meta property="og:type" content="website">
