@@ -1,3 +1,4 @@
+import './card-effects.js';
 import { categories, listArticles, loadNews, searchArticles } from './news.js';
 import {
   dateElement, node, renderCards, renderCategorySections, renderHotNews, renderWeeklyCuriosity,
