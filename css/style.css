@@ -384,7 +384,19 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .section-link:hover { color: var(--purple-dark); }
 
 .news-grid { display: grid; gap: 16px; }
-.news-card { display: flex; flex-direction: column; background: var(--white); border: 1px solid var(--ink); }
+.news-card {
+  --lift-x: 0px; --lift-y: 0px; --rx: 0deg; --ry: 0deg;
+  --shadow: 4px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: var(--white);
+  border: 1px solid var(--ink);
+  /* contorno extra de 1px (sem alterar o layout) + sombra lilás deslocada para baixo e à direita */
+  box-shadow: 0 0 0 1px var(--ink), var(--shadow) var(--shadow) 0 1px var(--purple);
+  transform: perspective(900px) translate3d(var(--lift-x), var(--lift-y), 0) rotateX(var(--rx)) rotateY(var(--ry));
+  transition: transform .22s ease-out, box-shadow .22s ease-out;
+}
 .card-media { position: relative; overflow: hidden; background: var(--purple-light); }
 .card-media img { width: 100%; aspect-ratio: 16 / 8.7; object-fit: cover; }
 
@@ -431,6 +443,38 @@ button, a { -webkit-tap-highlight-color: transparent; }
   text-underline-offset: .2em;
 }
 .read-link:hover { color: var(--purple-dark); }
+
+/* Card inteiro clicável: o próprio link "Leia mais" é esticado sobre o card (um único <a>, sem links ou botões aninhados). */
+.read-link::after { position: absolute; z-index: 1; inset: 0; content: ''; }
+.read-link:focus-visible { outline: none; }
+/* Controles próprios dentro do card (ex.: "Salvar") ficam acima da área clicável e não disparam a navegação. */
+.news-card :is(button, input, select, a:not(.read-link)) { position: relative; z-index: 2; }
+
+/* Foco por teclado: o contorno acompanha o card inteiro */
+.news-card:has(.read-link:focus-visible) {
+  --lift-x: -3px; --lift-y: -3px; --shadow: 9px;
+  outline: 3px solid var(--purple-dark);
+  outline-offset: 4px;
+  z-index: 3;
+}
+
+/* Mouse: elevação, sombra mais evidente e inclinação discreta (a inclinação é aplicada por js/card-effects.js) */
+@media (hover: hover) and (pointer: fine) {
+  .news-card:has(.read-link) { cursor: pointer; }
+  .news-card:hover { --lift-x: -3px; --lift-y: -3px; --shadow: 9px; z-index: 3; }
+  .news-card.is-tilting { transition: transform .08s linear, box-shadow .22s ease-out; will-change: transform; }
+  .news-card:hover .read-link { color: var(--purple-dark); }
+}
+
+/* Toque: resposta de "pressionado" */
+@media (hover: none) {
+  .news-card:active { --lift-x: 2px; --lift-y: 2px; --shadow: 2px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .news-card, .news-card.is-tilting { transition: none; will-change: auto; }
+  .news-card:hover, .news-card:active, .news-card:has(.read-link:focus-visible) { --lift-x: 0px; --lift-y: 0px; --rx: 0deg; --ry: 0deg; }
+}
 
 .category-banner {
   display: grid;
