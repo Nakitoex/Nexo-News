@@ -67,4 +67,4 @@ def candidates(page_url):
     out = []
     for raw in parser.found:
         url = urljoin(final_url, raw)
-        if urlparse(url).scheme in ('http', 'https')
+        if urlparse(url).scheme in ('http', 'https'):
