@@ -103,8 +103,8 @@
         "source": "LexML Brasil",
         "sourceUrl": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1990-09-11;8078",
         "publishedAt": "2026-11-18T17:30:00Z",
-        "image": "assets/images/direito-consumidor-digital.jpg",
-        "imageAlt": "Martelo de madeira de juiz sobre documentos impressos em preto e branco com detalhes em verde.",
+        "image": "assets/images/direito.webp",
+        "imageAlt": "Ilustração de um martelo de juiz sobre documentos.",
         "tags": [
           "direito do consumidor",
           "compras online",
@@ -119,8 +119,8 @@
         "source": "LexML Brasil",
         "sourceUrl": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2011-11-18;12527",
         "publishedAt": "2026-11-17T13:15:00Z",
-        "image": "assets/images/direito-acesso-informacao.jpg",
-        "imageAlt": "Martelo de madeira de juiz sobre documentos impressos em preto e branco com detalhes em verde.",
+        "image": "assets/images/direito.webp",
+        "imageAlt": "Ilustração de um martelo de juiz sobre documentos.",
         "tags": [
           "transparência",
           "LAI",
@@ -170,8 +170,8 @@
         "source": "UNESCO",
         "sourceUrl": "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics",
         "publishedAt": "2026-11-18T21:00:00Z",
-        "image": "assets/images/ads-etica-algoritmos.jpg",
-        "imageAlt": "Colagem artística em preto e branco de uma jovem usando fones de ouvido com recortes em lilás e verde-limão.",
+        "image": "assets/images/ia-e-criatividade.webp",
+        "imageAlt": "Colagem ilustrativa de uma estudante com fones de ouvido.",
         "tags": [
           "ética",
           "inteligência artificial",
@@ -186,13 +186,14 @@
         "source": "W3C",
         "sourceUrl": "https://www.w3.org/WAI/fundamentals/accessibility-intro/",
         "publishedAt": "2026-11-17T17:40:00Z",
-        "image": "assets/images/ads-codigo-semantico.jpg",
-        "imageAlt": "Colagem artística em preto e branco de uma jovem usando fones de ouvido com recortes em lilás e verde-limão.",
+        "image": "assets/images/ads-codigo-semantico.webp",
+        "imageAlt": "Imagem de divulgação da matéria “Código semântico melhora a experiência”",
         "tags": [
           "HTML",
           "acessibilidade",
           "programação"
-        ]
+        ],
+        "imageCredit": "Imagem: W3C (w3.org)"
       }
     ],
     "engenharia-civil": [
@@ -236,8 +237,8 @@
         "source": "EPA",
         "sourceUrl": "https://www.epa.gov/green-infrastructure/what-green-infrastructure",
         "publishedAt": "2026-11-18T16:50:00Z",
-        "image": "assets/images/eng-civil-infraestrutura-verde.jpg",
-        "imageAlt": "Estrutura arquitetônica moderna de concreto aparente vista de baixo em preto e branco com céu lilás.",
+        "image": "assets/images/engenharia-civil.webp",
+        "imageAlt": "Ilustração de formas de concreto em perspectiva.",
         "tags": [
           "infraestrutura verde",
           "drenagem",
@@ -252,8 +253,8 @@
         "source": "IEA",
         "sourceUrl": "https://www.iea.org/energy-system/buildings",
         "publishedAt": "2026-11-17T20:05:00Z",
-        "image": "assets/images/eng-civil-eficiencia-energetica.jpg",
-        "imageAlt": "Estrutura arquitetônica moderna de concreto aparente vista de baixo em preto e branco com céu lilás.",
+        "image": "assets/images/engenharia-civil.webp",
+        "imageAlt": "Ilustração de formas de concreto em perspectiva.",
         "tags": [
           "eficiência energética",
           "edifícios",
@@ -302,8 +303,8 @@
         "source": "Cinemateca Brasileira",
         "sourceUrl": "https://www.cinemateca.org.br/preservacao/",
         "publishedAt": "2026-11-18T18:20:00Z",
-        "image": "assets/images/cinema-preservacao-pelicula.jpg",
-        "imageAlt": "Câmera de cinema analógica antiga e rolos de filme em preto e branco com detalhes em lilás.",
+        "image": "assets/images/cinema.webp",
+        "imageAlt": "Ilustração de uma câmera analógica e um rolo de filme.",
         "tags": [
           "película",
           "preservação",
@@ -318,8 +319,8 @@
         "source": "FIAF",
         "sourceUrl": "https://www.fiafnet.org/pages/E-Resources/Preservation-Resources.html",
         "publishedAt": "2026-11-17T14:10:00Z",
-        "image": "assets/images/cinema-restauracao-som.jpg",
-        "imageAlt": "Câmera de cinema analógica antiga e rolos de filme em preto e branco com detalhes em lilás.",
+        "image": "assets/images/cinema.webp",
+        "imageAlt": "Ilustração de uma câmera analógica e um rolo de filme.",
         "tags": [
           "restauração",
           "som",
@@ -368,13 +369,14 @@
         "source": "OMS",
         "sourceUrl": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
         "publishedAt": "2026-11-18T19:00:00Z",
-        "image": "assets/images/ed-fisica-forca-equilibrio.jpg",
-        "imageAlt": "Pessoa correndo em uma pista de atletismo em foto preto e branco com destaque verde-limão no gramado.",
+        "image": "assets/images/ed-fisica-forca-equilibrio.webp",
+        "imageAlt": "Imagem de divulgação da matéria “Força e equilíbrio ao longo da vida”",
         "tags": [
           "fortalecimento muscular",
           "mobilidade",
           "saúde"
-        ]
+        ],
+        "imageCredit": "Imagem: OMS (cdn.who.int)"
       },
       {
         "id": "ed-fisica-saude-mental",
@@ -384,8 +386,8 @@
         "source": "OMS",
         "sourceUrl": "https://www.who.int/health-topics/physical-activity",
         "publishedAt": "2026-11-17T12:45:00Z",
-        "image": "assets/images/ed-fisica-saude-mental.jpg",
-        "imageAlt": "Pessoa correndo em uma pista de atletismo em foto preto e branco com destaque verde-limão no gramado.",
+        "image": "assets/images/educacao-fisica.webp",
+        "imageAlt": "Ilustração de uma atleta em uma pista de corrida.",
         "tags": [
           "saúde mental",
           "exercício",
