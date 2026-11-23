@@ -228,7 +228,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0);
   transition: opacity var(--tt-time) ease;
 }
-.tt-track::before { background: linear-gradient(90deg, #ffb347, var(--purple)); opacity: 1; }
+.tt-track::before { background: linear-gradient(90deg, #cdef3b, #6fb527); opacity: 1; }
 .tt-track::after  { background: linear-gradient(90deg, #3f8cff, #a06bff); opacity: 0; }
 
 .tt-star {
@@ -268,7 +268,11 @@ button, a { -webkit-tap-highlight-color: transparent; }
   content: '';
   transition: opacity var(--tt-time) ease;
 }
-.tt-thumb::before { background: linear-gradient(135deg, var(--green), #ffb347 60%, #ff7a3d); opacity: 1; }
+.tt-thumb::before {
+  background: linear-gradient(135deg, #b7e535, #9bd02f 60%, #86bd28);
+  box-shadow: inset 0 0 0 1.5px #5e9f1b;
+  opacity: 1;
+}
 .tt-thumb::after  { background: linear-gradient(135deg, #4aa3ff, #8f5cf5); opacity: 0; }
 
 .tt-icon {
