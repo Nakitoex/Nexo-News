@@ -150,13 +150,7 @@ Dicas:
 
 O site é publicado no **GitHub Pages** por um workflow em `.github/workflows/pages.yml`. A cada alteração enviada para a branch `main`, o GitHub publica a nova versão automaticamente. Acompanhe o andamento na aba **Actions**.
 
-Para publicar em outro repositório, envie os arquivos para a `main` (incluindo `.github/` e `.nojekyll`), abra **Settings → Pages** e escolha **GitHub Actions** em **Build and deployment → Source**.
-
-## Créditos
-
-- As ilustrações da edição demonstrativa foram geradas para o projeto.
-- As fontes *Archivo Black* e *Space Grotesk* seguem a licença SIL OFL. Os textos de licença estão em `assets/fonts/`.
-- As notícias e os links pertencem às suas respectivas fontes, indicadas em cada card.
+Para publicar em outro repositório, envie os arquivos para a `main` (incluindo `.github/` e `.nojekyll`), abra **Settings → Pages** e escolha **GitHub Actions** em **Build and deployment → Source**.|
 
 ## Licença e direitos autorais
 
@@ -173,3 +167,9 @@ Exemplo de crédito:
 O uso comercial das imagens sem autorização prévia é proibido.
 
 Imagens de terceiros, materiais de divulgação ou de agências parceiras seguem as regras de direitos autorais de seus respectivos detentores.
+
+## Créditos
+
+- As ilustrações da edição demonstrativa foram geradas para o projeto.
+- As fontes *Archivo Black* e *Space Grotesk* seguem a licença SIL OFL. Os textos de licença estão em `assets/fonts/`.
+- As notícias e os links pertencem às suas respectivas fontes, indicadas em cada card.
