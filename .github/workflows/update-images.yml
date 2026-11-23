@@ -1,0 +1,41 @@
+name: Buscar imagens das notícias
+
+on:
+  workflow_dispatch:   # botão "Run workflow" na aba Actions
+
+permissions:
+  contents: write      # para salvar as imagens e o news.json
+  actions: write       # para disparar a publicação do site
+
+jobs:
+  imagens:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o código
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar Pillow
+        run: pip install pillow
+
+      - name: Buscar as imagens
+        run: python scripts/fetch_images.py
+
+      - name: Salvar e publicar
+        env:
+GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/images data/news.json
+          if git diff --cached --quiet; then
+            echo "Nada para atualizar."
+          else
+            git commit -m "Atualiza as imagens das notícias"
+            git push
+            gh workflow run pages.yml --ref main
+          fi
