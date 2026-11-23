@@ -157,3 +157,19 @@ Para publicar em outro repositório, envie os arquivos para a `main` (incluindo 
 - As ilustrações da edição demonstrativa foram geradas para o projeto.
 - As fontes *Archivo Black* e *Space Grotesk* seguem a licença SIL OFL. Os textos de licença estão em `assets/fonts/`.
 - As notícias e os links pertencem às suas respectivas fontes, indicadas em cada card.
+
+## Licença e direitos autorais
+
+**Copyright © 2026 NEXUS NEWS**
+
+### Direitos autorais e uso de imagens
+
+As fotografias e ilustrações produzidas pela equipe do NEXUS NEWS são de distribuição pública gratuita. É permitida a reprodução, a distribuição e o compartilhamento deste material visual para fins informativos, educacionais ou jornalísticos, desde que sejam obrigatoriamente citados a fonte e o crédito do(a) autor(a).
+
+Exemplo de crédito:
+
+> Foto: Arthur Pozzetti / NEXUS NEWS
+
+O uso comercial das imagens sem autorização prévia é proibido.
+
+Imagens de terceiros, materiais de divulgação ou de agências parceiras seguem as regras de direitos autorais de seus respectivos detentores.
