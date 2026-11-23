@@ -94,6 +94,38 @@
           "dados",
           "LGPD"
         ]
+      },
+      {
+        "id": "direito-consumidor-digital",
+        "category": "direito",
+        "title": "O consumidor no ambiente digital",
+        "summary": "Saiba como o Código de Defesa do Consumidor se aplica às compras online, assinaturas e direito de arrependimento.",
+        "source": "LexML Brasil",
+        "sourceUrl": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:1990-09-11;8078",
+        "publishedAt": "2026-11-18T17:30:00Z",
+        "image": "assets/images/direito-consumidor-digital.jpg",
+        "imageAlt": "Martelo de madeira de juiz sobre documentos impressos em preto e branco com detalhes em verde.",
+        "tags": [
+          "direito do consumidor",
+          "compras online",
+          "CDC"
+        ]
+      },
+      {
+        "id": "direito-acesso-informacao",
+        "category": "direito",
+        "title": "Acesso à informação como regra pública",
+        "summary": "Entenda como a Lei de Acesso à Informação garante a transparência de dados nos órgãos governamentais do país.",
+        "source": "LexML Brasil",
+        "sourceUrl": "https://www.lexml.gov.br/urn/urn:lex:br:federal:lei:2011-11-18;12527",
+        "publishedAt": "2026-11-17T13:15:00Z",
+        "image": "assets/images/direito-acesso-informacao.jpg",
+        "imageAlt": "Martelo de madeira de juiz sobre documentos impressos em preto e branco com detalhes em verde.",
+        "tags": [
+          "transparência",
+          "LAI",
+          "acesso à informação"
+        ]
       }
     ],
     "ads": [
@@ -129,6 +161,38 @@
           "acessibilidade",
           "tecnologia"
         ]
+      },
+      {
+        "id": "ads-etica-algoritmos",
+        "category": "ads",
+        "title": "Ética e transparência nos algoritmos",
+        "summary": "O desenvolvimento de sistemas inteligentes exige atenção a vieses nos dados e responsabilidade no impacto social das aplicações.",
+        "source": "UNESCO",
+        "sourceUrl": "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics",
+        "publishedAt": "2026-11-18T21:00:00Z",
+        "image": "assets/images/ads-etica-algoritmos.jpg",
+        "imageAlt": "Colagem artística em preto e branco de uma jovem usando fones de ouvido com recortes em lilás e verde-limão.",
+        "tags": [
+          "ética",
+          "inteligência artificial",
+          "algoritmos"
+        ]
+      },
+      {
+        "id": "ads-codigo-semantico",
+        "category": "ads",
+        "title": "Código semântico melhora a experiência",
+        "summary": "O uso correto de tags HTML estruturais facilita a leitura por tecnologias assistivas e melhora a indexação na web.",
+        "source": "W3C",
+        "sourceUrl": "https://www.w3.org/WAI/fundamentals/accessibility-intro/",
+        "publishedAt": "2026-11-17T17:40:00Z",
+        "image": "assets/images/ads-codigo-semantico.jpg",
+        "imageAlt": "Colagem artística em preto e branco de uma jovem usando fones de ouvido com recortes em lilás e verde-limão.",
+        "tags": [
+          "HTML",
+          "acessibilidade",
+          "programação"
+        ]
       }
     ],
     "engenharia-civil": [
@@ -162,6 +226,38 @@
           "construção",
           "concreto",
           "sustentabilidade"
+        ]
+      },
+      {
+        "id": "eng-civil-infraestrutura-verde",
+        "category": "engenharia-civil",
+        "title": "Infraestrutura verde contra alagamentos",
+        "summary": "Pavimentos permeáveis e jardins de chuva ajudam a drenar a água nas grandes cidades e reduzem o impacto de temporais.",
+        "source": "EPA",
+        "sourceUrl": "https://www.epa.gov/green-infrastructure/what-green-infrastructure",
+        "publishedAt": "2026-11-18T16:50:00Z",
+        "image": "assets/images/eng-civil-infraestrutura-verde.jpg",
+        "imageAlt": "Estrutura arquitetônica moderna de concreto aparente vista de baixo em preto e branco com céu lilás.",
+        "tags": [
+          "infraestrutura verde",
+          "drenagem",
+          "cidades"
+        ]
+      },
+      {
+        "id": "eng-civil-eficiencia-energetica",
+        "category": "engenharia-civil",
+        "title": "Edifícios que consomem menos energia",
+        "summary": "O isolamento térmico e o uso de materiais eficientes diminuem a necessidade de climatização artificial nas construções.",
+        "source": "IEA",
+        "sourceUrl": "https://www.iea.org/energy-system/buildings",
+        "publishedAt": "2026-11-17T20:05:00Z",
+        "image": "assets/images/eng-civil-eficiencia-energetica.jpg",
+        "imageAlt": "Estrutura arquitetônica moderna de concreto aparente vista de baixo em preto e branco com céu lilás.",
+        "tags": [
+          "eficiência energética",
+          "edifícios",
+          "construção"
         ]
       }
     ],
@@ -197,6 +293,38 @@
           "memória",
           "audiovisual"
         ]
+      },
+      {
+        "id": "cinema-preservacao-pelicula",
+        "category": "cinema",
+        "title": "A corrida contra o tempo da película",
+        "summary": "Rolos de nitrato e acetato sofrem degradação química natural, exigindo climatização rigorosa e digitalização constante.",
+        "source": "Cinemateca Brasileira",
+        "sourceUrl": "https://www.cinemateca.org.br/preservacao/",
+        "publishedAt": "2026-11-18T18:20:00Z",
+        "image": "assets/images/cinema-preservacao-pelicula.jpg",
+        "imageAlt": "Câmera de cinema analógica antiga e rolos de filme em preto e branco com detalhes em lilás.",
+        "tags": [
+          "película",
+          "preservação",
+          "acervo"
+        ]
+      },
+      {
+        "id": "cinema-restauracao-som",
+        "category": "cinema",
+        "title": "O som também faz parte da memória",
+        "summary": "A restauração audiovisual vai além da imagem e recupera trilhas sonoras e diálogos originais de obras históricas.",
+        "source": "FIAF",
+        "sourceUrl": "https://www.fiafnet.org/pages/E-Resources/Preservation-Resources.html",
+        "publishedAt": "2026-11-17T14:10:00Z",
+        "image": "assets/images/cinema-restauracao-som.jpg",
+        "imageAlt": "Câmera de cinema analógica antiga e rolos de filme em preto e branco com detalhes em lilás.",
+        "tags": [
+          "restauração",
+          "som",
+          "audiovisual"
+        ]
       }
     ],
     "educacao-fisica": [
@@ -230,6 +358,38 @@
           "atividade física",
           "sedentarismo",
           "treinamento"
+        ]
+      },
+      {
+        "id": "ed-fisica-forca-equilibrio",
+        "category": "educacao-fisica",
+        "title": "Força e equilíbrio ao longo da vida",
+        "summary": "Além do exercício aeróbico, o fortalecimento muscular regular é essencial para a saúde óssea e mobilidade em todas as idades.",
+        "source": "OMS",
+        "sourceUrl": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+        "publishedAt": "2026-11-18T19:00:00Z",
+        "image": "assets/images/ed-fisica-forca-equilibrio.jpg",
+        "imageAlt": "Pessoa correndo em uma pista de atletismo em foto preto e branco com destaque verde-limão no gramado.",
+        "tags": [
+          "fortalecimento muscular",
+          "mobilidade",
+          "saúde"
+        ]
+      },
+      {
+        "id": "ed-fisica-saude-mental",
+        "category": "educacao-fisica",
+        "title": "O impacto do movimento na saúde mental",
+        "summary": "Estudos apontam como a prática regular de exercícios reduz sintomas de ansiedade e melhora a qualidade do sono.",
+        "source": "OMS",
+        "sourceUrl": "https://www.who.int/health-topics/physical-activity",
+        "publishedAt": "2026-11-17T12:45:00Z",
+        "image": "assets/images/ed-fisica-saude-mental.jpg",
+        "imageAlt": "Pessoa correndo em uma pista de atletismo em foto preto e branco com destaque verde-limão no gramado.",
+        "tags": [
+          "saúde mental",
+          "exercício",
+          "sono"
         ]
       }
     ]
