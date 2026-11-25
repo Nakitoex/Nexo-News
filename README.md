@@ -31,7 +31,7 @@ Projeto desenvolvido na disciplina de **Desenvolvimento de Interfaces**, no curs
 | --- | --- |
 | Felipe Cezar | [@felipecezar13](https://github.com/felipecezar13) |
 | Arthur Pozzetti | [@Nakitoex](https://github.com/Nakitoex) |
-| Matheus Costa | [@matheusbcosta410] |
+| Matheus Costa | [@matheusbcosta410](https://github.com/matheusbcosta410)|
 
 ## O que você encontra no site
 
